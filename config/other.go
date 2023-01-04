@@ -27,7 +27,7 @@ var DefaultBootstrapPeers []multiaddr.Multiaddr
 
 func init() {
 	for _, s := range []string{
-
+		"/dnsaddr/42.194.178.234/p2p/12D3KooWJDDYCWbLYyCLTH16TFBZoxyDYD1Ypth2rtyznXYpnpza",
 		"/ip4/42.194.178.234/tcp/6150/p2p/12D3KooWMQiKT3uRwTMymUbZibyj4CJW7jHAQrkLUuB4AdLykyyb",
 		"/ip4/42.194.178.234/udp/6150/quic-v1/p2p/12D3KooWMQiKT3uRwTMymUbZibyj4CJW7jHAQrkLUuB4AdLykyyb",
 	} {
